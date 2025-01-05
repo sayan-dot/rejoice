@@ -1,0 +1,33 @@
+.page1 {
+  height: 100vh;
+  position: relative;
+}
+.page1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.page1Content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+.title span {
+  display: inline-block;
+  font-family: "rejoice";
+  font-size: 27vw;
+  font-weight: 100;
+  line-height: 27vw;
+  color: #fff;
+  transform: translateY(500px);
+}
+.title {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
