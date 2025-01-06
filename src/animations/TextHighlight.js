@@ -75,7 +75,7 @@ const TextRevealDiv = styled.div`
 `;
 
 const TextBody = styled.p`
-    margin-top:4vw;
+  margin-top: 4vw;
   color: rgba(0, 0, 0, 0.365);
-  font-size: 4.7rem;
+  font-size: 4.6vw;
 `;
